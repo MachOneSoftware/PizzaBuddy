@@ -16,7 +16,8 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Supreme",            new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
                 { "Pepperoni Bacon",    new[] { "pepperoni", "bacon" } },
                 { "Beef Lovers",        new[] { "pepperoni", "beef" } },
-                { "Pepperoni Veggie",   new[] { "pepperoni", "onion", "green pepper" } }
+                { "Pepperoni Veggie",   new[] { "pepperoni", "onion", "green pepper" } },
+                { "Diavolo"             new[] { "pepperoni", "salami", "onion" } }
             }
         );
 
@@ -38,7 +39,8 @@ namespace MachOneSoftware.PizzaBuddy
                 "ham",
                 "pepperoni",
                 "sausage",
-                "canadian bacon"
+                "canadian bacon",
+                "salami"
             }
         );
 
