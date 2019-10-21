@@ -54,7 +54,7 @@ namespace MachOneSoftware.PizzaBuddy
                 "pineapple",
                 "spinach",
                 "tomato",
-                "saurkraut"
+                "sauerkraut"
             }
         );
 
