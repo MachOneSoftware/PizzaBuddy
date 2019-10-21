@@ -1,0 +1,147 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "pizza buddy",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RandomPizzaIntent",
+                    "slots": [
+                        {
+                            "name": "toppingCount",
+                            "type": "ZeroThruTen"
+                        }
+                    ],
+                    "samples": [
+                        "give me a pizza with {toppingCount} topping",
+                        "give me a pizza with {toppingCount} toppings",
+                        "give me a pizza",
+                        "I want a random pizza with {toppingCount} topping",
+                        "I want a pizza with {toppingCount} topping",
+                        "give me a random pizza with {toppingCount} topping",
+                        "I want a random pizza with {toppingCount} toppings",
+                        "I want a pizza with {toppingCount} toppings",
+                        "I want a random pizza",
+                        "I want a pizza",
+                        "give me a random pizza with {toppingCount} toppings",
+                        "give me a random pizza",
+                        "what toppings should I have on my pizza",
+                        "what toppings should I get",
+                        "what kind of pizza should I get",
+                        "what kind of pizza should I order"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "ZeroThruTen",
+                    "values": [
+                        {
+                            "id": "10",
+                            "name": {
+                                "value": "10"
+                            }
+                        },
+                        {
+                            "id": "9",
+                            "name": {
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "id": "8",
+                            "name": {
+                                "value": "8",
+                                "synonyms": [
+                                    "ate"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "7",
+                            "name": {
+                                "value": "7"
+                            }
+                        },
+                        {
+                            "id": "6",
+                            "name": {
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "id": "5",
+                            "name": {
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "id": "4",
+                            "name": {
+                                "value": "4",
+                                "synonyms": [
+                                    "fore",
+                                    "for"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "name": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "name": {
+                                "value": "2",
+                                "synonyms": [
+                                    "too",
+                                    "to"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "1",
+                                "synonyms": [
+                                    "won"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "0",
+                            "name": {
+                                "value": "0",
+                                "synonyms": [
+                                    "without any",
+                                    "no"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
