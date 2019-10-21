@@ -9,14 +9,18 @@ namespace MachOneSoftware.PizzaBuddy
         private static Lazy<Dictionary<string, string[]>> _meatPizzas = new Lazy<Dictionary<string, string[]>>(() =>
             new Dictionary<string, string[]>()
             {
-                { "Meat Lovers",        new[] { "pepperoni", "beef", "sausage", "ham" } },
-                { "Hawaiian",           new[] { "ham", "pineapple" } },
-                { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
-                { "Hawaiian Elvis",     new{} { "canadian bacon", "pineapple", "saurkraut"}},
-                { "Supreme",            new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
-                { "Pepperoni Bacon",    new[] { "pepperoni", "bacon" } },
-                { "Beef Lovers",        new[] { "pepperoni", "beef" } },
-                { "Pepperoni Veggie",   new[] { "pepperoni", "onion", "green pepper" } }
+                { "Meat Lovers",              new[] { "pepperoni", "beef", "sausage", "ham" } },
+                { "Hawaiian",                 new[] { "ham", "pineapple" } },
+                { "Deluxe Hawaiian",          new[] { "ham", "bacon", "pineapple" } },
+                { "Hawaiian Elvis",           new[] { "canadian bacon", "pineapple", "sauerkraut"} },
+                { "Supreme",                  new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
+                { "Pepperoni Bacon",          new[] { "pepperoni", "bacon" } },
+                { "Beef Lovers",              new[] { "pepperoni", "beef" } },
+                { "Pepperoni Veggie",         new[] { "pepperoni", "onion", "green pepper" } },
+                { "Prosciutto and Arugula",   new[] { "mozzarella chesse", "parmesan", "prosciutto", "arugula" } },
+                { "For Seasons",              new[] {"tomato", "mozzarella cheese", "basil leaves", "artichoke",
+                                                     "fontina cheese", "mushroom", "red pepper", "provolone cheese", "potato",
+                                                     "pecorino cheese"}}
             }
         );
 
@@ -38,7 +42,8 @@ namespace MachOneSoftware.PizzaBuddy
                 "ham",
                 "pepperoni",
                 "sausage",
-                "canadian bacon"
+                "canadian bacon",
+                "prosciutto"
             }
         );
 
@@ -47,6 +52,7 @@ namespace MachOneSoftware.PizzaBuddy
             {
                 "banana pepper",
                 "green pepper",
+                "red pepper",
                 "jalapeño pepper",
                 "mushroom",
                 "olive",
@@ -54,7 +60,11 @@ namespace MachOneSoftware.PizzaBuddy
                 "pineapple",
                 "spinach",
                 "tomato",
-                "saurkraut"
+                "sauerkraut",
+                "arugula",
+                "artichoke",
+                "basil leaves",
+                "potato"
             }
         );
 
