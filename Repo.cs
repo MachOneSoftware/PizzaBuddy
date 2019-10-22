@@ -9,23 +9,28 @@ namespace MachOneSoftware.PizzaBuddy
         private static Lazy<Dictionary<string, string[]>> _meatPizzas = new Lazy<Dictionary<string, string[]>>(() =>
             new Dictionary<string, string[]>()
             {
-                { "Meat Lovers",        new[] { "pepperoni", "beef", "sausage", "ham" } },
-                { "Hawaiian",           new[] { "ham", "pineapple" } },
-                { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
-                { "Hawaiian Elvis",     new{} { "canadian bacon", "pineapple", "saurkraut"}},
-                { "Supreme",            new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
-                { "Pepperoni Bacon",    new[] { "pepperoni", "bacon" } },
                 { "Beef Lovers",        new[] { "pepperoni", "beef" } },
-                { "Pepperoni Veggie",   new[] { "pepperoni", "onion", "green pepper" } }
+                { "Chicken Feast",      new[] { "chicken", "mushroom", "sweetcorn" } },
+                { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
+                { "Hawaiian",           new[] { "ham", "pineapple" } },
+                { "Hawaiian Elvis",     new[] { "canadian bacon", "pineapple", "saurkraut" } },
+                { "Meat Lovers",        new[] { "pepperoni", "beef", "sausage", "ham" } },
+                { "Pepperoni Bacon",    new[] { "pepperoni", "bacon" } },
+                { "Pepperoni Passion",  new[] { "pepperoni" } },
+                { "Pepperoni Veggie",   new[] { "pepperoni", "onion", "green pepper" } },
+                { "Ranch BBQ",          new[] { "chicken", "pepperoni", "beef", "bacon"} },
+                { "Supreme",            new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
+                { "Texas BBQ",          new[] { "chicken", "bacon", "onion", "red pepper", "green pepper" } },
+                { "Tuna Supreme",       new[] { "tuna", "sweetcorn", "onion" } }
             }
         );
 
         private static Lazy<Dictionary<string, string[]>> _veggiePizzas = new Lazy<Dictionary<string, string[]>>(() =>
             new Dictionary<string, string[]>()
             {
-                { "Veggie Lovers",      new[] {"tomato", "olive", "spinach", "mushroom", "onion" } },
                 { "Spice Garden",       new[] {"green pepper", "banana pepper", "jalapeño pepper" } },
-                { "Spinach Delight",    new[] {"spinach", "tomato" } }
+                { "Spinach Delight",    new[] {"spinach", "tomato" } },
+                { "Veggie Lovers",      new[] {"tomato", "olive", "spinach", "mushroom", "onion" } }
             }
         );
 
@@ -34,11 +39,12 @@ namespace MachOneSoftware.PizzaBuddy
             {
                 "bacon",
                 "beef",
+                "canadian bacon",
                 "chicken",
                 "ham",
                 "pepperoni",
                 "sausage",
-                "canadian bacon"
+                "tuna"
             }
         );
 
@@ -52,9 +58,11 @@ namespace MachOneSoftware.PizzaBuddy
                 "olive",
                 "onion",
                 "pineapple",
+                "red pepper",
+                "saurkraut",
                 "spinach",
-                "tomato",
-                "saurkraut"
+                "sweetcorn",
+                "tomato"
             }
         );
 
