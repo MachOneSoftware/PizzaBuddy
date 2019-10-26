@@ -12,7 +12,7 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Meat Lovers",        new[] { "pepperoni", "beef", "sausage", "ham" } },
                 { "Hawaiian",           new[] { "ham", "pineapple" } },
                 { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
-                { "Hawaiian Elvis",     new{} { "canadian bacon", "pineapple", "saurkraut"}},
+                { "Hawaiian Elvis",     new[] { "canadian bacon", "pineapple", "saurkraut" } },
                 { "Supreme",            new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
                 { "Pepperoni Bacon",    new[] { "pepperoni", "bacon" } },
                 { "Beef Lovers",        new[] { "pepperoni", "beef" } },
