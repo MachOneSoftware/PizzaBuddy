@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -18,7 +18,8 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Beef Lovers",        new[] { "pepperoni", "beef" } },
                 { "Pepperoni Veggie",   new[] { "pepperoni", "onion", "green pepper" } },
                 { "New York Classic",   new[] { "double cheese", "pepperoni", "hot chorizo sausage"} },
-                { "Breakfast",          new[] { "bacon", "boiled egg" } }
+                { "Breakfast",          new[] { "bacon", "boiled egg" } },
+		{ "Seafood",     	new[] { "shrimp", "anchovy" , "basil" } }
             }
         );
 
@@ -28,7 +29,9 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Veggie Lovers",      new[] {"tomato", "olive", "spinach", "mushroom", "onion" } },
                 { "Spice Garden",       new[] {"green pepper", "banana pepper", "jalapeño pepper" } },
                 { "Spinach Delight",    new[] {"spinach", "tomato" } },
-                { "Balkan",             new[] {"goat cheese", "cherry tomato", "black olive" }}
+                { "Balkan",             new[] {"goat cheese", "cherry tomato", "black olive" }},
+                { "Mushroom Broccoli",  new[] {"mushroom", "broccoli" } },
+                { "Parmigiana",         new[] {"tomato", "eggplant" } }
             }
         );
 
@@ -43,7 +46,9 @@ namespace MachOneSoftware.PizzaBuddy
                 "sausage",
                 "canadian bacon",
                 "hot chorizo sausage",
-                "boiled egg"
+                "boiled egg",
+                "shrimp",
+                "anchovy"
             }
         );
 
@@ -62,7 +67,10 @@ namespace MachOneSoftware.PizzaBuddy
                 "saurkraut",
                 "cherry tomato",
                 "black olive",
-                "goat cheese"
+                "goat cheese",
+                "eggplant",
+                "broccoli",
+                "basil"
             }
         );
 
