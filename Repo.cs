@@ -11,6 +11,7 @@ namespace MachOneSoftware.PizzaBuddy
             {
                 { "Beef Lovers",        new[] { "pepperoni", "beef" } },
                 { "Breakfast",          new[] { "bacon", "boiled egg" } },
+                { "Cheesesteak",        new[] { "beef", "green pepper", "onion", "mushroom" } },
                 { "Chicken Feast",      new[] { "chicken", "mushroom", "sweetcorn" } },
                 { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
                 { "Diavolo"             new[] { "pepperoni", "salami", "onion" } },
@@ -37,6 +38,7 @@ namespace MachOneSoftware.PizzaBuddy
             new Dictionary<string, string[]>()
             {
                 { "Balkan",             new[] {"goat cheese", "cherry tomato", "black olive" }},
+                { "Margherita",         new[] {"basil", "tomato", "garlic" } },
                 { "Mushroom Broccoli",  new[] {"mushroom", "broccoli" } },
                 { "Parmigiana",         new[] {"tomato", "eggplant" } },
                 { "Spice Garden",       new[] {"green pepper", "banana pepper", "jalapeño pepper" } },
@@ -77,6 +79,7 @@ namespace MachOneSoftware.PizzaBuddy
                 "broccoli",
                 "cherry tomato",
                 "eggplant",
+                "garlic",
                 "goat cheese",
                 "green pepper",
                 "jalapeño pepper",
@@ -85,6 +88,7 @@ namespace MachOneSoftware.PizzaBuddy
                 "onion",
                 "pineapple",
                 "potato",
+                "red onion",
                 "red pepper",
                 "sauerkraut",
                 "spinach",
