@@ -13,7 +13,10 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Breakfast",          new[] { "bacon", "boiled egg" } },
                 { "Chicken Feast",      new[] { "chicken", "mushroom", "sweetcorn" } },
                 { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
-                { "Diavolo"             new[] { "pepperoni", "salami", "onion" } }
+                { "Diavolo"             new[] { "pepperoni", "salami", "onion" } },
+                { "Four Seasons",       new[] {"tomato", "mozzarella cheese", "basil leaves", "artichoke",
+                                               "fontina cheese", "mushroom", "red pepper", "provolone cheese", "potato",
+                                               "pecorino cheese"}},
                 { "Hawaiian",           new[] { "ham", "pineapple" } },
                 { "Hawaiian Elvis",     new[] { "canadian bacon", "pineapple", "sauerkraut" } },
                 { "Meat Lovers",        new[] { "pepperoni", "beef", "sausage", "ham" } },
@@ -21,6 +24,7 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Pepperoni Bacon",    new[] { "pepperoni", "bacon" } },
                 { "Pepperoni Passion",  new[] { "pepperoni" } },
                 { "Pepperoni Veggie",   new[] { "pepperoni", "onion", "green pepper" } },
+                { "Prosciutto and Arugula",   new[] { "mozzarella chesse", "parmesan", "prosciutto", "arugula" } },
                 { "Ranch BBQ",          new[] { "chicken", "pepperoni", "beef", "bacon"} },
 		            { "Seafood",     	      new[] { "shrimp", "anchovy" , "basil" } },
                 { "Supreme",            new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
@@ -53,6 +57,7 @@ namespace MachOneSoftware.PizzaBuddy
                 "ham",
                 "hot chorizo sausage",
                 "pepperoni",
+                "prosciutto",
                 "salami",
                 "sausage",
                 "shrimp",
@@ -63,8 +68,11 @@ namespace MachOneSoftware.PizzaBuddy
         private static Lazy<string[]> _veggies = new Lazy<string[]>(() =>
             new[]
             {
+                "artichoke",
+                "arugula",
                 "banana pepper",
                 "basil",
+                "basil leaves",
                 "black olive",
                 "broccoli",
                 "cherry tomato",
@@ -76,6 +84,7 @@ namespace MachOneSoftware.PizzaBuddy
                 "olive",
                 "onion",
                 "pineapple",
+                "potato",
                 "red pepper",
                 "sauerkraut",
                 "spinach",
