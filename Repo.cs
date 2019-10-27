@@ -12,6 +12,7 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Barbeque Chicken",   new[] { "onion", "chicken", "bbq sauce"}},
                 { "Beef Lovers",        new[] { "pepperoni", "beef" } },
                 { "Breakfast",          new[] { "bacon", "boiled egg" } },
+                { "Buffalo Chicken",    new[] { "chicken", "buffalo sauce" } },
                 { "Cheesesteak",        new[] { "beef", "green pepper", "onion", "mushroom" } },
                 { "Chicken Bacon Alfredo",      new[] { "mushroom", "onion", "chicken", "bacon"}},
                 { "Chicken Feast",      new[] { "chicken", "mushroom", "sweetcorn" } },
