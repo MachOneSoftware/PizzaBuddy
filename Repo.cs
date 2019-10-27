@@ -9,48 +9,54 @@ namespace MachOneSoftware.PizzaBuddy
         private static Lazy<Dictionary<string, string[]>> _meatPizzas = new Lazy<Dictionary<string, string[]>>(() =>
             new Dictionary<string, string[]>()
             {
-                { "Meat Lovers",        new[] { "pepperoni", "beef", "sausage", "ham" } },
-                { "Hawaiian",           new[] { "ham", "pineapple" } },
-                { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
-                { "Hawaiian Elvis",     new[] { "canadian bacon", "pineapple", "saurkraut"} },
-                { "Supreme",            new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
-                { "Pepperoni Bacon",    new[] { "pepperoni", "bacon" } },
                 { "Beef Lovers",        new[] { "pepperoni", "beef" } },
-                { "Pepperoni Veggie",   new[] { "pepperoni", "onion", "green pepper" } },
-                { "New York Classic",   new[] { "double cheese", "pepperoni", "hot chorizo sausage"} },
                 { "Breakfast",          new[] { "bacon", "boiled egg" } },
-		            { "Seafood",     	new[] { "shrimp", "anchovy" , "basil" } },
+                { "Chicken Feast",      new[] { "chicken", "mushroom", "sweetcorn" } },
+                { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
                 { "Diavolo"             new[] { "pepperoni", "salami", "onion" } }
+                { "Hawaiian",           new[] { "ham", "pineapple" } },
+                { "Hawaiian Elvis",     new[] { "canadian bacon", "pineapple", "sauerkraut" } },
+                { "Meat Lovers",        new[] { "pepperoni", "beef", "sausage", "ham" } },
+                { "New York Classic",   new[] { "double cheese", "pepperoni", "hot chorizo sausage"} },
+                { "Pepperoni Bacon",    new[] { "pepperoni", "bacon" } },
+                { "Pepperoni Passion",  new[] { "pepperoni" } },
+                { "Pepperoni Veggie",   new[] { "pepperoni", "onion", "green pepper" } },
+                { "Ranch BBQ",          new[] { "chicken", "pepperoni", "beef", "bacon"} },
+		            { "Seafood",     	      new[] { "shrimp", "anchovy" , "basil" } },
+                { "Supreme",            new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
+                { "Texas BBQ",          new[] { "chicken", "bacon", "onion", "red pepper", "green pepper" } },
+                { "Tuna Supreme",       new[] { "tuna", "sweetcorn", "onion" } }
             }
         );
 
         private static Lazy<Dictionary<string, string[]>> _veggiePizzas = new Lazy<Dictionary<string, string[]>>(() =>
             new Dictionary<string, string[]>()
             {
-                { "Veggie Lovers",      new[] {"tomato", "olive", "spinach", "mushroom", "onion" } },
-                { "Spice Garden",       new[] {"green pepper", "banana pepper", "jalapeño pepper" } },
-                { "Spinach Delight",    new[] {"spinach", "tomato" } },
                 { "Balkan",             new[] {"goat cheese", "cherry tomato", "black olive" }},
                 { "Mushroom Broccoli",  new[] {"mushroom", "broccoli" } },
-                { "Parmigiana",         new[] {"tomato", "eggplant" } }
+                { "Parmigiana",         new[] {"tomato", "eggplant" } },
+                { "Spice Garden",       new[] {"green pepper", "banana pepper", "jalapeño pepper" } },
+                { "Spinach Delight",    new[] {"spinach", "tomato" } },
+                { "Veggie Lovers",      new[] {"tomato", "olive", "spinach", "mushroom", "onion" } }
             }
         );
 
         private static Lazy<string[]> _meats = new Lazy<string[]>(() =>
             new[]
             {
+                "anchovy",
                 "bacon",
                 "beef",
+                "boiled egg",
+                "canadian bacon",
                 "chicken",
                 "ham",
-                "pepperoni",
-                "sausage",
-                "canadian bacon",
                 "hot chorizo sausage",
-                "boiled egg",
+                "pepperoni",
+                "salami",
+                "sausage",
                 "shrimp",
-                "anchovy",
-                "salami"
+                "tuna"
             }
         );
 
@@ -58,21 +64,23 @@ namespace MachOneSoftware.PizzaBuddy
             new[]
             {
                 "banana pepper",
+                "basil",
+                "black olive",
+                "broccoli",
+                "cherry tomato",
+                "eggplant",
+                "goat cheese",
                 "green pepper",
                 "jalapeño pepper",
                 "mushroom",
                 "olive",
                 "onion",
                 "pineapple",
+                "red pepper",
+                "sauerkraut",
                 "spinach",
-                "tomato",
-                "saurkraut",
-                "cherry tomato",
-                "black olive",
-                "goat cheese",
-                "eggplant",
-                "broccoli",
-                "basil"
+                "sweetcorn",
+                "tomato"
             }
         );
 
