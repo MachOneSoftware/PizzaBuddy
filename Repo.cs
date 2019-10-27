@@ -18,7 +18,7 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Beef Lovers",              new[] { "pepperoni", "beef" } },
                 { "Pepperoni Veggie",         new[] { "pepperoni", "onion", "green pepper" } },
                 { "Prosciutto and Arugula",   new[] { "mozzarella chesse", "parmesan", "prosciutto", "arugula" } },
-                { "For Seasons",              new[] {"tomato", "mozzarella cheese", "basil leaves", "artichoke",
+                { "Four Seasons",              new[] {"tomato", "mozzarella cheese", "basil leaves", "artichoke",
                                                      "fontina cheese", "mushroom", "red pepper", "provolone cheese", "potato",
                                                      "pecorino cheese"}}
             }
