@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -12,11 +12,14 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Meat Lovers",        new[] { "pepperoni", "beef", "sausage", "ham" } },
                 { "Hawaiian",           new[] { "ham", "pineapple" } },
                 { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
-                { "Hawaiian Elvis",     new{} { "canadian bacon", "pineapple", "saurkraut"}},
+                { "Hawaiian Elvis",     new[] { "canadian bacon", "pineapple", "saurkraut"} },
                 { "Supreme",            new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
                 { "Pepperoni Bacon",    new[] { "pepperoni", "bacon" } },
                 { "Beef Lovers",        new[] { "pepperoni", "beef" } },
                 { "Pepperoni Veggie",   new[] { "pepperoni", "onion", "green pepper" } },
+                { "New York Classic",   new[] { "double cheese", "pepperoni", "hot chorizo sausage"} },
+                { "Breakfast",          new[] { "bacon", "boiled egg" } },
+		            { "Seafood",     	new[] { "shrimp", "anchovy" , "basil" } },
                 { "Diavolo"             new[] { "pepperoni", "salami", "onion" } }
             }
         );
@@ -26,7 +29,10 @@ namespace MachOneSoftware.PizzaBuddy
             {
                 { "Veggie Lovers",      new[] {"tomato", "olive", "spinach", "mushroom", "onion" } },
                 { "Spice Garden",       new[] {"green pepper", "banana pepper", "jalapeño pepper" } },
-                { "Spinach Delight",    new[] {"spinach", "tomato" } }
+                { "Spinach Delight",    new[] {"spinach", "tomato" } },
+                { "Balkan",             new[] {"goat cheese", "cherry tomato", "black olive" }},
+                { "Mushroom Broccoli",  new[] {"mushroom", "broccoli" } },
+                { "Parmigiana",         new[] {"tomato", "eggplant" } }
             }
         );
 
@@ -40,6 +46,10 @@ namespace MachOneSoftware.PizzaBuddy
                 "pepperoni",
                 "sausage",
                 "canadian bacon",
+                "hot chorizo sausage",
+                "boiled egg",
+                "shrimp",
+                "anchovy",
                 "salami"
             }
         );
@@ -56,7 +66,13 @@ namespace MachOneSoftware.PizzaBuddy
                 "pineapple",
                 "spinach",
                 "tomato",
-                "sauerkraut"
+                "saurkraut",
+                "cherry tomato",
+                "black olive",
+                "goat cheese",
+                "eggplant",
+                "broccoli",
+                "basil"
             }
         );
 
