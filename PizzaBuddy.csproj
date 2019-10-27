@@ -11,6 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="PizzaBuddyTests\**" />
+    <EmbeddedResource Remove="PizzaBuddyTests\**" />
+    <None Remove="PizzaBuddyTests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Alexa.NET" Version="1.5.4" />
     <PackageReference Include="Amazon.Lambda.Core" Version="1.0.0" />
     <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.4.0" />
