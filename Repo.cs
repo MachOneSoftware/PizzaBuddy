@@ -9,9 +9,11 @@ namespace MachOneSoftware.PizzaBuddy
         private static Lazy<Dictionary<string, string[]>> _meatPizzas = new Lazy<Dictionary<string, string[]>>(() =>
             new Dictionary<string, string[]>()
             {
+                { "Barbeque Chicken",   new[] { "onion", "chicken", "bbq sauce"}},
                 { "Beef Lovers",        new[] { "pepperoni", "beef" } },
                 { "Breakfast",          new[] { "bacon", "boiled egg" } },
                 { "Cheesesteak",        new[] { "beef", "green pepper", "onion", "mushroom" } },
+                { "Chicken Bacon Alfredo",      new[] { "mushroom", "onion", "chicken", "bacon"}},
                 { "Chicken Feast",      new[] { "chicken", "mushroom", "sweetcorn" } },
                 { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
                 { "Diavolo"             new[] { "pepperoni", "salami", "onion" } },
@@ -40,6 +42,7 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Balkan",             new[] {"goat cheese", "cherry tomato", "black olive" }},
                 { "Margherita",         new[] {"basil", "tomato", "garlic" } },
                 { "Mushroom Broccoli",  new[] {"mushroom", "broccoli" } },
+                { "Neopolitan",         new[] { "basil leaves", "tomato", "mozarella cheese"} },
                 { "Parmigiana",         new[] {"tomato", "eggplant" } },
                 { "Spice Garden",       new[] {"green pepper", "banana pepper", "jalapeño pepper" } },
                 { "Spinach Delight",    new[] {"spinach", "tomato" } },
