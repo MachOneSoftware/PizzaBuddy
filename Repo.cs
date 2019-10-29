@@ -18,6 +18,7 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Chicken Feast",      new[] { "chicken", "mushroom", "sweetcorn" } },
                 { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
                 { "Diavolo",             new[] { "pepperoni", "salami", "onion" } },
+                { "Emiliana",           new[] { "tomato", "mozzarella cheese", "eggplant", "potato", "sausage" }},
                 { "Four Seasons",       new[] {"tomato", "mozzarella cheese", "basil leaves", "artichoke",
                                                "fontina cheese", "mushroom", "red pepper", "provolone cheese", "potato",
                                                "pecorino cheese" } },
