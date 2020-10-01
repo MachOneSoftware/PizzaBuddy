@@ -17,7 +17,7 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Chicken Bacon Alfredo",      new[] { "mushroom", "onion", "chicken", "bacon"} },
                 { "Chicken Feast",      new[] { "chicken", "mushroom", "sweetcorn" } },
                 { "Deluxe Hawaiian",    new[] { "ham", "bacon", "pineapple" } },
-                { "Diavolo",             new[] { "pepperoni", "salami", "onion" } },
+                { "Diavolo",            new[] { "pepperoni", "salami", "onion" } },
                 { "Emiliana",           new[] { "tomato", "mozzarella cheese", "eggplant", "potato", "sausage" }},
                 { "Four Seasons",       new[] {"tomato", "mozzarella cheese", "basil leaves", "artichoke",
                                                "fontina cheese", "mushroom", "red pepper", "provolone cheese", "potato",
@@ -36,7 +36,9 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Seafood",            new[] { "shrimp", "anchovy" , "basil" } },
                 { "Supreme",            new[] { "pepperoni", "sausage", "mushroom", "green pepper", "onion" } },
                 { "Texas BBQ",          new[] { "chicken", "bacon", "onion", "red pepper", "green pepper" } },
-                { "Tuna Supreme",       new[] { "tuna", "sweetcorn", "onion" } }
+                { "Tuna Supreme",       new[] { "tuna", "sweetcorn", "onion" } },
+                { "Anchovies",          new[] { "anchovy", "ground basil", "mozzarella", "tomato" } },
+                { "Frutti di mare",     new[] { "mussel", "shrimp", "surimi stick", "mozzarella", "tomato" } }
             }
         );
 
@@ -51,7 +53,8 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Parmigiana",         new[] {"tomato", "eggplant" } },
                 { "Spice Garden",       new[] {"green pepper", "banana pepper", "jalapeño pepper" } },
                 { "Spinach Delight",    new[] {"spinach", "tomato" } },
-                { "Veggie Lovers",      new[] {"tomato", "olive", "spinach", "mushroom", "onion" } }
+                { "Veggie Lovers",      new[] {"tomato", "olive", "spinach", "mushroom", "onion" } },
+                { "Vegetal",            new[] {"onion", "mushroom", "olive", "caper", "pepper", "artichoke", "mozzarella", "tomato" } }
             }
         );
 
@@ -66,12 +69,14 @@ namespace MachOneSoftware.PizzaBuddy
                 "chicken",
                 "ham",
                 "hot chorizo sausage",
+                "mussel",
                 "pepperoni",
                 "prosciutto",
                 "salami",
                 "sausage",
                 "shrimp",
                 "steak",
+                "surimi stick",
                 "tuna"
             }
         );
@@ -87,6 +92,7 @@ namespace MachOneSoftware.PizzaBuddy
                 "bell peppers",
                 "black olive",
                 "broccoli",
+                "caper",
                 "cherry tomato",
                 "eggplant",
                 "garlic",
