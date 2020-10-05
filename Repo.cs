@@ -63,6 +63,7 @@ namespace MachOneSoftware.PizzaBuddy
                 "beef",
                 "boiled egg",
                 "canadian bacon",
+                "capicola",
                 "chicken",
                 "ham",
                 "hot chorizo sausage",
@@ -87,6 +88,7 @@ namespace MachOneSoftware.PizzaBuddy
                 "bell peppers",
                 "black olive",
                 "broccoli",
+                "Brussels sprouts",
                 "cherry tomato",
                 "eggplant",
                 "garlic",
@@ -107,7 +109,8 @@ namespace MachOneSoftware.PizzaBuddy
                 "sauerkraut",
                 "spinach",
                 "sweetcorn",
-                "tomato"
+                "tomato",
+                "zucchini",
             }
         );
 
