@@ -51,7 +51,8 @@ namespace MachOneSoftware.PizzaBuddy
                 { "Parmigiana",         new[] {"tomato", "eggplant" } },
                 { "Spice Garden",       new[] {"green pepper", "banana pepper", "jalapeño pepper" } },
                 { "Spinach Delight",    new[] {"spinach", "tomato" } },
-                { "Veggie Lovers",      new[] {"tomato", "olive", "spinach", "mushroom", "onion" } }
+                { "Veggie Lovers",      new[] {"tomato", "olive", "spinach", "mushroom", "onion" } },
+                { "Wild Mushroom",      new{} {"oyster mushroom", "shitake", "baby portabella","trumpet","creamy parmesan sauce" } }
             }
         );
 
@@ -64,6 +65,8 @@ namespace MachOneSoftware.PizzaBuddy
                 "boiled egg",
                 "canadian bacon",
                 "chicken",
+                "crab meat",
+                "duck prosciutto",
                 "ham",
                 "hot chorizo sausage",
                 "italian sausage",
@@ -91,25 +94,70 @@ namespace MachOneSoftware.PizzaBuddy
                 "broccoli",
                 "cherry tomato",
                 "eggplant",
+                "fig",
                 "garlic",
-                "goat cheese",
-                "gorgonzola",
                 "green pepper",
+                "heirloom tomato"
                 "jalapeño pepper",
                 "mozzarella",
                 "mushroom",
                 "olive",
                 "onion",
-                "parmigian",
                 "pineapple",
                 "potato",
                 "red onion",
                 "red pepper",
-                "riccota",
+                "roasted garlic",
                 "sauerkraut",
                 "spinach",
                 "sweetcorn",
-                "tomato"
+                "tomato", 
+                "walnuts"
+            }
+        );
+        
+        private static Lazy<string[]> _sauces = new Lazy<string[]>(() =>
+            new[]
+            {
+                "alfredo",
+                "bbq sauce",
+                "bean sauce",
+                "bechamel",
+                "butter sauce",
+                "creamy parmesan",
+                "honey",
+                "marinara",
+                "olive oil",
+                "pesto",
+                "red sauce",
+                "siracha",
+                "spicey red sauce"
+            
+            }
+        );
+
+        private static Lazy<string[]> _cheeses = new Lazy<string[]>(() =>
+            new[]
+            {
+                "asiago",
+                "blue cheese",
+                "brie",
+                "burrata",
+                "cheddar",
+                "colby jack",
+                "feta",
+                "goat cheese",
+                "gorgonzola",
+                "gouda",
+                "mozzarella",
+                "myzithra",
+                "parmigiano reggiano",
+                "pepper jack",
+                "pecorino romano",
+                "provolone",
+                "ricotta",
+                "taleggio"
+            
             }
         );
 
@@ -118,7 +166,10 @@ namespace MachOneSoftware.PizzaBuddy
         public static IEnumerable<KeyValuePair<string, string[]>> AllPizzas { get => _meatPizzas.Value.Concat(_veggiePizzas.Value); }
         public static string[] Meats { get => _meats.Value; }
         public static string[] Veggies { get => _veggies.Value; }
+        public static string[] Cheeses { get =>_cheeses.Value; }
+        public static string[] Sauces {get => _sauces.Value; }
         public static string[] AllToppings { get => _veggies.Value.Concat(_meats.Value).ToArray(); }
+        
     }
 
     enum PizzaType
