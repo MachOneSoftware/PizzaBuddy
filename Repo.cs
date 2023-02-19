@@ -66,6 +66,8 @@ namespace MachOneSoftware.PizzaBuddy
                 "chicken",
                 "ham",
                 "hot chorizo sausage",
+                "italian sausage",
+                "meatball",
                 "pepperoni",
                 "prosciutto",
                 "salami",
